@@ -1,0 +1,79 @@
+
+$brand-color: #9fbffc;
+$brand-accent: #e43c5c;
+
+// change brand color 
+.cta-1, .cta2, .navbar-default .navbar-brand, .main-navigation.navbar-fixed-top * {
+	background-color: $brand-color !important;
+}
+
+
+
+
+// set fixed height on navbar 
+#brand-logo {
+	height: 70px;
+}
+
+// remove border
+.main-navigation {
+	border-bottom: none;
+}
+
+
+
+// vertical center for top nav
+ul.nav > li > a {
+    line-height: 50px;
+}
+
+// jumbotron
+#banner {
+	background: url('./img/wh2.jpg') no-repeat;
+}
+
+
+
+// fix icon issues 
+.service-box .service-icon {
+	margin-right: 0px;
+	margin-left: 23px;
+	
+
+	i.fa {
+		line-height: 70px;
+	}
+}
+
+
+
+.team-info {
+	border-radius: 0px;
+	border-right: 1px solid $brand-accent;
+	border-radius: 50px;
+
+	.fig-caption {
+		padding: 0px 40px 0px 0px;	
+		width: 100%;
+    	float: none;
+	}
+}
+
+.team-cards, .team-cards * {
+	margin-top: 5px;
+}
+
+.text-field-box {
+	text-align: right;
+}
+
+
+.wd75 {
+	float: right;
+}
+
+
+
+.section-padding {
+	border-top: 1px solid rgba(128, 128, 128, 0.12);
+}

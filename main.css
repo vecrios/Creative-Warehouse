@@ -1,0 +1,69 @@
+/* line 6, main.scss */
+.cta-1, .cta2, .navbar-default .navbar-brand, .main-navigation.navbar-fixed-top * {
+  background-color: #9fbffc !important;
+}
+
+/* line 14, main.scss */
+#brand-logo {
+  height: 70px;
+}
+
+/* line 19, main.scss */
+.main-navigation {
+  border-bottom: none;
+}
+
+/* line 26, main.scss */
+ul.nav > li > a {
+  line-height: 50px;
+}
+
+/* line 31, main.scss */
+#banner {
+  background: url("./img/wh2.jpg") no-repeat;
+}
+
+/* line 38, main.scss */
+.service-box .service-icon {
+  margin-right: 0px;
+  margin-left: 23px;
+}
+/* line 43, main.scss */
+.service-box .service-icon i.fa {
+  line-height: 70px;
+}
+
+/* line 50, main.scss */
+.team-info {
+  border-radius: 0px;
+  border-right: 1px solid #e43c5c;
+  border-radius: 50px;
+}
+/* line 55, main.scss */
+.team-info .fig-caption {
+  padding: 0px 40px 0px 0px;
+  width: 100%;
+  float: none;
+}
+
+/* line 62, main.scss */
+.team-cards, .team-cards * {
+  margin-top: 5px;
+}
+
+/* line 66, main.scss */
+.text-field-box {
+  text-align: right;
+}
+
+/* line 71, main.scss */
+.wd75 {
+  float: right;
+}
+
+/* line 77, main.scss */
+.section-padding {
+  border-top: 1px solid rgba(128, 128, 128, 0.12);
+}
+
+/*# sourceMappingURL=main.css.map */

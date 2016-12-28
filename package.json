@@ -1,0 +1,13 @@
+{
+  "name": "creative-warehouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "r2 css/style.css style-rtl.css"
+  },
+  "dependencies" : {
+    "R2": "latest"
+  }
+}

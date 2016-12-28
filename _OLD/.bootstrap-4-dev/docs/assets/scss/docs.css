@@ -1,0 +1,1444 @@
+/*!
+ * Bootstrap Docs (https://getbootstrap.com)
+ * Copyright 2011-2016 The Bootstrap Authors
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under the Creative Commons Attribution 3.0 Unported License. For
+ * details, see https://creativecommons.org/licenses/by/3.0/.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_booticon\.scss}line{font-family:\000035}}
+.bd-booticon {
+  display: block;
+  width: 9rem;
+  height: 9rem;
+  font-size: 6.5rem;
+  line-height: 9rem;
+  color: #fff;
+  text-align: center;
+  cursor: default;
+  background-color: #563d7c;
+  border-radius: 15%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_booticon\.scss}line{font-family:\0000317}}
+  .bd-booticon.inverse {
+    color: #563d7c;
+    background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_booticon\.scss}line{font-family:\0000321}}
+  .bd-booticon.outline {
+    background-color: transparent;
+    border: 1px solid #cdbfe3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_nav\.scss}line{font-family:\000037}}
+.bd-navbar .navbar-nav .nav-link {
+  color: #8e869d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_nav\.scss}line{font-family:\0000310}}
+  .bd-navbar .navbar-nav .nav-link.active, .bd-navbar .navbar-nav .nav-link:hover, .bd-navbar .navbar-nav .nav-link:focus {
+    color: #292b2c;
+    background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_nav\.scss}line{font-family:\0000317}}
+  .bd-navbar .navbar-nav .nav-link.active {
+    font-weight: 500;
+    color: #040404; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_nav\.scss}line{font-family:\0000324}}
+.bd-navbar .dropdown-menu {
+  font-size: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\000033}}
+.bd-masthead {
+  position: relative;
+  padding: 3rem 15px 2rem;
+  color: #cdbfe3;
+  text-align: center;
+  background-image: -webkit-linear-gradient(315deg, #271b38, #563d7c, #7952b3);
+  background-image: linear-gradient(135deg, #271b38, #563d7c, #7952b3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000310}}
+  .bd-masthead .bd-booticon {
+    margin: 0 auto 2rem;
+    color: #cdbfe3;
+    border-color: #cdbfe3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000316}}
+  .bd-masthead h1 {
+    font-weight: 300;
+    line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000321}}
+  .bd-masthead .lead {
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    font-size: 1.25rem;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000329}}
+  .bd-masthead .version {
+    margin-top: -1rem;
+    margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000334}}
+  .bd-masthead .btn {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #ffe484;
+    border-color: #ffe484; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000342}}
+    .bd-masthead .btn:hover {
+      color: #2a2730;
+      background-color: #ffe484;
+      border-color: #ffe484; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000349}}
+  .bd-masthead .carbonad {
+    margin-bottom: -2rem !important; }
+  @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\000033}}
+    .bd-masthead {
+      padding-top: 8rem;
+      padding-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000357}}
+      .bd-masthead .btn {
+        width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000361}}
+      .bd-masthead .carbonad {
+        margin-bottom: 0 !important; } }
+  @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\000033}}
+    .bd-masthead {
+      padding-bottom: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000369}}
+      .bd-masthead .bd-header {
+        margin-bottom: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000373}}
+      .bd-masthead h1 {
+        font-size: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000377}}
+      .bd-masthead .lead {
+        font-size: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000381}}
+      .bd-masthead .carbonad {
+        margin-top: 3rem !important; } }
+  @media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_masthead\.scss}line{font-family:\0000387}}
+    .bd-masthead .lead {
+      width: 85%;
+      font-size: 2rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\000031}}
+.bd-featurette {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+  background-color: #fff;
+  border-top: 1px solid #eee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000311}}
+  .bd-featurette .highlight {
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000315}}
+  .bd-featurette .lead {
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    font-size: 1rem;
+    text-align: center; }
+  @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\000031}}
+    .bd-featurette {
+      text-align: left; } }
+  @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000328}}
+    .bd-featurette .col-sm-6:first-child {
+      padding-right: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000331}}
+    .bd-featurette .col-sm-6:last-child {
+      padding-left: 45px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000337}}
+.bd-featurette-title {
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #333;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000345}}
+.half-rule {
+  width: 6rem;
+  margin: 2.5rem auto; }
+  @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000345}}
+    .half-rule {
+      margin-right: 0;
+      margin-left: 0; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000354}}
+.bd-featurette h4 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-weight: normal;
+  color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000360}}
+.bd-featurette-img {
+  display: block;
+  margin-bottom: 1.25rem;
+  color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000365}}
+.bd-featurette-img:hover {
+  color: #0275d8;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000369}}
+.bd-featurette-img img {
+  display: block;
+  margin-bottom: 1rem; }
+
+@media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000375}}
+  .bd-featurette .img-fluid {
+    margin-top: 2rem; } }
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000380}}
+  .bd-featurette {
+    padding-top: 6rem;
+    padding-bottom: 6rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000384}}
+  .bd-featurette-title {
+    font-size: 2.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000387}}
+    .bd-featurette-title + .lead {
+      font-size: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000391}}
+  .bd-featurette .lead {
+    max-width: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featurettes\.scss}line{font-family:\0000394}}
+  .bd-featurette .img-fluid {
+    margin-top: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featured-sites\.scss}line{font-family:\000031}}
+.bd-featured-sites {
+  margin-right: -1px;
+  margin-left: -1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featured-sites\.scss}line{font-family:\000035}}
+.bd-featured-sites .col-6 {
+  padding: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featured-sites\.scss}line{font-family:\000038}}
+.bd-featured-sites .img-fluid {
+  margin-top: 0; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featured-sites\.scss}line{font-family:\0000313}}
+  .bd-featured-sites .col-sm-3:first-child img {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_featured-sites\.scss}line{font-family:\0000317}}
+  .bd-featured-sites .col-sm-3:last-child img {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_ads\.scss}line{font-family:\000037}}
+#carbonads {
+  display: block;
+  padding: 15px 15px 15px 160px;
+  margin: 50px -15px 0;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: left;
+  border: solid #866ab3;
+  border-width: 1px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_ads\.scss}line{font-family:\0000318}}
+  #carbonads a {
+    color: #fff;
+    text-decoration: none; }
+  @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_ads\.scss}line{font-family:\000037}}
+    #carbonads {
+      max-width: 330px;
+      margin: 50px auto 0;
+      border-width: 1px;
+      border-radius: 4px; } }
+  @media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_ads\.scss}line{font-family:\000037}}
+    #carbonads {
+      position: absolute;
+      top: 0;
+      right: 15px;
+      margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_ads\.scss}line{font-family:\0000336}}
+      .bd-masthead #carbonads {
+        position: static; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_ads\.scss}line{font-family:\0000342}}
+.carbon-img {
+  float: left;
+  margin-left: -145px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_ads\.scss}line{font-family:\0000347}}
+.carbon-poweredby {
+  display: block;
+  color: #cdbfe3 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\000038}}
+.bd-content > table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  overflow-y: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000320}}
+  .bd-content > table > thead > tr > th,
+  .bd-content > table > thead > tr > td,
+  .bd-content > table > tbody > tr > th,
+  .bd-content > table > tbody > tr > td,
+  .bd-content > table > tfoot > tr > th,
+  .bd-content > table > tfoot > tr > td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border: 1px solid #eceeef; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000326}}
+    .bd-content > table > thead > tr > th > p:last-child,
+    .bd-content > table > thead > tr > td > p:last-child,
+    .bd-content > table > tbody > tr > th > p:last-child,
+    .bd-content > table > tbody > tr > td > p:last-child,
+    .bd-content > table > tfoot > tr > th > p:last-child,
+    .bd-content > table > tfoot > tr > td > p:last-child {
+      margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000334}}
+  .bd-content > table td:first-child > code {
+    white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000345}}
+.bd-content > h2:not(:first-child) {
+  margin-top: 3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000349}}
+.bd-content > h3 {
+  margin-top: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000353}}
+.bd-content > ul li,
+.bd-content > ol li {
+  margin-bottom: .25rem; }
+
+@media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000359}}
+  .bd-title {
+    font-size: 3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000363}}
+    .bd-title + p {
+      font-size: 1.25rem;
+      font-weight: 300; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000377}}
+#markdown-toc > li:first-child {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_content\.scss}line{font-family:\0000381}}
+#markdown-toc ul {
+  padding-left: 2rem;
+  margin-top: .25rem;
+  margin-bottom: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\000033}}
+.bd-pageheader {
+  padding: 2rem 15px;
+  margin-bottom: 1.5rem;
+  color: #cdbfe3;
+  text-align: center;
+  background-color: #563d7c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\0000310}}
+  .bd-pageheader .container {
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\0000314}}
+  .bd-pageheader h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\0000320}}
+  .bd-pageheader p {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 300; }
+  @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\000033}}
+    .bd-pageheader {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      margin-bottom: 3rem;
+      text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\0000332}}
+      .bd-pageheader .carbonad {
+        margin: 2rem 0 0 !important; } }
+  @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\0000338}}
+    .bd-pageheader h1 {
+      font-size: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\0000342}}
+    .bd-pageheader p {
+      font-size: 1.5rem; } }
+  @media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\0000348}}
+    .bd-pageheader h1,
+    .bd-pageheader p {
+      margin-right: 380px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_page-header\.scss}line{font-family:\0000353}}
+    .bd-pageheader .carbonad {
+      position: absolute;
+      top: 0;
+      right: .75rem;
+      margin: 0 !important; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_skiplink\.scss}line{font-family:\000033}}
+#skippy {
+  display: block;
+  padding: 1em;
+  color: #fff;
+  background-color: #563d7c;
+  outline: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_skiplink\.scss}line{font-family:\0000310}}
+  #skippy .skiplink-text {
+    padding: .5em;
+    outline: 1px dotted; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\000035}}
+  .bd-sidebar {
+    padding-left: 1rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000311}}
+.bd-search {
+  position: relative;
+  margin-bottom: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000315}}
+  .bd-search .form-control {
+    height: 2.45rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    background-color: #fafafa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000321}}
+    .bd-search .form-control:focus {
+      background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000327}}
+.bd-search-results {
+  right: 0;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  font-size: .9rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000334}}
+  .bd-search-results:empty {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000338}}
+  .bd-search-results .dropdown-item {
+    padding-right: .75rem;
+    padding-left: .75rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000342}}
+    .bd-search-results .dropdown-item:first-child {
+      margin-top: .25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000343}}
+    .bd-search-results .dropdown-item:last-child {
+      margin-bottom: .25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000346}}
+  .bd-search-results .no-results {
+    padding: .75rem 1rem;
+    color: #7a7a7a;
+    text-align: center;
+    white-space: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000355}}
+.bd-sidenav {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000359}}
+.bd-toc-link {
+  display: block;
+  padding: .25rem .75rem;
+  color: #464a4c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000364}}
+.bd-toc-link:hover,
+.bd-toc-link:focus {
+  color: #0275d8;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000369}}
+.active > .bd-toc-link {
+  font-weight: 500;
+  color: #292b2c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000373}}
+.active > .bd-sidenav {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000377}}
+.bd-toc-item.active {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000381}}
+.bd-toc-item:first-child {
+  margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000384}}
+.bd-toc-item:last-child {
+  margin-bottom: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000389}}
+.bd-sidebar .nav > li > a {
+  display: block;
+  padding: .25rem .75rem;
+  font-size: 90%;
+  color: #99979c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\0000395}}
+.bd-sidebar .nav > li > a:hover,
+.bd-sidebar .nav > li > a:focus {
+  color: #0275d8;
+  text-decoration: none;
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_sidebar\.scss}line{font-family:\00003101}}
+.bd-sidebar .nav > .active > a,
+.bd-sidebar .nav > .active:hover > a,
+.bd-sidebar .nav > .active:focus > a {
+  font-weight: 500;
+  color: #292b2c;
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_footer\.scss}line{font-family:\000035}}
+.bd-footer {
+  padding: 4rem 0;
+  margin-top: 4rem;
+  font-size: 85%;
+  text-align: center;
+  background-color: #f7f7f7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_footer\.scss}line{font-family:\0000312}}
+  .bd-footer a {
+    font-weight: 500;
+    color: #464a4c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_footer\.scss}line{font-family:\0000316}}
+    .bd-footer a:hover {
+      color: #0275d8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_footer\.scss}line{font-family:\0000321}}
+  .bd-footer p {
+    margin-bottom: 0; }
+  @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_footer\.scss}line{font-family:\000035}}
+    .bd-footer {
+      text-align: left; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_footer\.scss}line{font-family:\0000330}}
+.bd-footer-links {
+  padding-left: 0;
+  margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_footer\.scss}line{font-family:\0000334}}
+  .bd-footer-links li {
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_footer\.scss}line{font-family:\0000337}}
+    .bd-footer-links li + li {
+      margin-left: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\000038}}
+.bd-example-row .row + .row {
+  margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000313}}
+.bd-example-row .row > .col,
+.bd-example-row .row > [class^="col-"] {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000322}}
+.bd-example-row .flex-items-top,
+.bd-example-row .flex-items-middle,
+.bd-example-row .flex-items-bottom {
+  min-height: 6rem;
+  background-color: rgba(255, 0, 0, 0.1); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000330}}
+.bd-example-row-flex-cols .row {
+  min-height: 10rem;
+  background-color: rgba(255, 0, 0, 0.1); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000335}}
+.bd-highlight {
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.15); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000345}}
+.bd-example-container {
+  min-width: 16rem;
+  max-width: 25rem;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000352}}
+.bd-example-container-header {
+  height: 3rem;
+  margin-bottom: .5rem;
+  background-color: #daeeff;
+  border-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000359}}
+.bd-example-container-sidebar {
+  float: right;
+  width: 4rem;
+  height: 8rem;
+  background-color: #fae3c4;
+  border-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000367}}
+.bd-example-container-body {
+  height: 8rem;
+  margin-right: 4.5rem;
+  background-color: #957bbe;
+  border-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000374}}
+.bd-example-container-fluid {
+  max-width: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000383}}
+.bd-example {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem -1rem;
+  border: solid #f7f7f9;
+  border-width: .2rem 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/scss\/mixins\/_clearfix\.scss}line{font-family:\000032}}
+  .bd-example::after {
+    display: block;
+    content: "";
+    clear: both; }
+  @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000383}}
+    .bd-example {
+      padding: 1.5rem;
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+      border-width: .2rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\0000399}}
+  .bd-example + .highlight,
+  .bd-example + .clipboard + .highlight {
+    margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003104}}
+  .bd-example + p {
+    margin-top: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003108}}
+  .bd-example .pos-f-t {
+    position: relative;
+    margin: -1rem; }
+    @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003108}}
+      .bd-example .pos-f-t {
+        margin: -1.5rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003118}}
+  .bd-example > .form-control + .form-control {
+    margin-top: .5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003123}}
+  .bd-example > .nav + .nav,
+  .bd-example > .alert + .alert,
+  .bd-example > .navbar + .navbar,
+  .bd-example > .progress + .progress,
+  .bd-example > .progress + .btn {
+    margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003131}}
+  .bd-example > .dropdown-menu:first-child {
+    position: static;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003136}}
+  .bd-example > .form-group:last-child {
+    margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003141}}
+.bd-example > .close {
+  float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003146}}
+.bd-example-type .table .type-info {
+  color: #999;
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003150}}
+.bd-example-type .table td {
+  padding: 1rem 0;
+  border-color: #eee; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003154}}
+.bd-example-type .table tr:first-child td {
+  border-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003157}}
+.bd-example-type h1,
+.bd-example-type h2,
+.bd-example-type h3,
+.bd-example-type h4,
+.bd-example-type h5,
+.bd-example-type h6 {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003167}}
+.bd-example-bg-classes p {
+  padding: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003173}}
+.bd-example > img + img {
+  margin-left: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003179}}
+.bd-example > .btn-group {
+  margin-top: .25rem;
+  margin-bottom: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003183}}
+.bd-example > .btn-toolbar + .btn-toolbar {
+  margin-top: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003188}}
+.bd-example-control-sizing select,
+.bd-example-control-sizing input[type="text"] + input[type="text"] {
+  margin-top: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003192}}
+.bd-example-form .input-group {
+  margin-bottom: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003195}}
+.bd-example > textarea.form-control {
+  resize: vertical; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003200}}
+.bd-example > .list-group {
+  max-width: 400px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003206}}
+.bd-example .navbar-fixed-top {
+  position: static;
+  margin: -1rem -1rem 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003210}}
+.bd-example .navbar-fixed-bottom {
+  position: static;
+  margin: 1rem -1rem -1rem; }
+@media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003216}}
+  .bd-example .navbar-fixed-top {
+    margin: -1.5rem -1.5rem 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003219}}
+  .bd-example .navbar-fixed-bottom {
+    margin: 1rem -1.5rem -1.5rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003226}}
+.bd-example .pagination {
+  margin-top: .5rem;
+  margin-bottom: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003232}}
+.bd-example-modal {
+  background-color: #fafafa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003235}}
+  .bd-example-modal .modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003245}}
+  .bd-example-modal .modal-dialog {
+    left: auto;
+    margin-right: auto;
+    margin-left: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003253}}
+.bd-example > .dropdown > .dropdown-toggle {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003256}}
+.bd-example > .dropdown > .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: .25rem;
+  clear: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003264}}
+.bd-example-tabs .nav-tabs {
+  margin-bottom: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003269}}
+.bd-example-tooltips {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003272}}
+.bd-example-tooltips > .btn {
+  margin-top: .25rem;
+  margin-bottom: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003278}}
+.bd-example-popover-static {
+  padding-bottom: 1.5rem;
+  background-color: #f9f9f9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003282}}
+.bd-example-popover-static .popover {
+  position: relative;
+  display: block;
+  float: left;
+  width: 260px;
+  margin: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003291}}
+.tooltip-demo a {
+  white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003295}}
+.bd-example-tooltip-static .tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 10px 20px;
+  opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003303}}
+.scrollspy-example {
+  position: relative;
+  height: 200px;
+  margin-top: .5rem;
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003319}}
+.bd-example > .bg-primary:not(.navbar),
+.bd-example > .bg-success:not(.navbar),
+.bd-example > .bg-info:not(.navbar),
+.bd-example > .bg-warning:not(.navbar),
+.bd-example > .bg-danger:not(.navbar),
+.bd-example > .bg-inverse:not(.navbar),
+.bd-example > .bg-faded:not(.navbar) {
+  padding: .5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003328}}
+.bd-example-border-utils [class^="border-"] {
+  display: inline-block;
+  width: 6rem;
+  height: 6rem;
+  margin: .25rem;
+  background-color: #f5f5f5;
+  border: 1px solid; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003342}}
+.highlight {
+  padding: 1rem;
+  margin: 1rem -15px;
+  background-color: #f7f7f9; }
+  @media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003342}}
+    .highlight {
+      padding: 1.5rem;
+      margin-right: 0;
+      margin-left: 0; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003353}}
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_component-examples\.scss}line{font-family:\00003360}}
+.highlight pre code {
+  font-size: inherit;
+  color: #292b2c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\000038}}
+.table-responsive .highlight pre {
+  white-space: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000313}}
+.bd-table th small,
+.responsive-utilities th small {
+  display: block;
+  font-weight: normal;
+  color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000319}}
+.responsive-utilities tbody th {
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000322}}
+.responsive-utilities td {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000325}}
+.responsive-utilities .is-visible {
+  color: #468847;
+  background-color: #dff0d8 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000329}}
+.responsive-utilities .is-hidden {
+  color: #ccc;
+  background-color: #f9f9f9 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000335}}
+.responsive-utilities-test {
+  margin-top: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000338}}
+.responsive-utilities-test .col-6 {
+  margin-top: .5rem;
+  margin-bottom: .5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000342}}
+.responsive-utilities-test span {
+  display: block;
+  padding: 1rem .5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  border-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000354}}
+.visible-on .col-6 > .not-visible,
+.hidden-on .col-6 > .not-visible {
+  color: #999;
+  border: 1px solid #ddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000363}}
+.visible-on .col-6 .visible,
+.hidden-on .col-6 .visible {
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6; }
+
+@media (max-width: 575px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000372}}
+  .hidden-xs-only {
+    display: none !important; } }
+@media (min-width: 576px) and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000377}}
+  .hidden-sm-only {
+    display: none !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000382}}
+  .hidden-md-only {
+    display: none !important; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000387}}
+  .hidden-lg-only {
+    display: none !important; } }
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_responsive-tests\.scss}line{font-family:\0000392}}
+  .hidden-xl-only {
+    display: none !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_buttons\.scss}line{font-family:\000035}}
+.btn-bs {
+  font-weight: 500;
+  color: #7952b3;
+  border-color: #7952b3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_buttons\.scss}line{font-family:\0000310}}
+  .btn-bs:hover, .btn-bs:focus, .btn-bs:active {
+    color: #fff;
+    background-color: #7952b3;
+    border-color: #7952b3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\000035}}
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000314}}
+.bd-callout h4 {
+  margin-top: 0;
+  margin-bottom: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000319}}
+.bd-callout p:last-child {
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000323}}
+.bd-callout code {
+  border-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000327}}
+.bd-callout + .bd-callout {
+  margin-top: -.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000338}}
+.bd-callout-info {
+  border-left-color: #5bc0de; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000335}}
+  .bd-callout-info h4 {
+    color: #5bc0de; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000339}}
+.bd-callout-warning {
+  border-left-color: #f0ad4e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000335}}
+  .bd-callout-warning h4 {
+    color: #f0ad4e; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000340}}
+.bd-callout-danger {
+  border-left-color: #d9534f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_callouts\.scss}line{font-family:\0000335}}
+  .bd-callout-danger h4 {
+    color: #d9534f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_examples\.scss}line{font-family:\000035}}
+.bd-examples .img-thumbnail {
+  margin-bottom: .75rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_examples\.scss}line{font-family:\000038}}
+.bd-examples h4 {
+  margin-bottom: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_examples\.scss}line{font-family:\0000311}}
+.bd-examples p {
+  margin-bottom: 1.25rem; }
+
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_examples\.scss}line{font-family:\0000316}}
+  .bd-examples {
+    margin-right: -.75rem;
+    margin-left: -.75rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_examples\.scss}line{font-family:\0000320}}
+  .bd-examples > [class^="col-"] {
+    padding-right: .75rem;
+    padding-left: .75rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_team\.scss}line{font-family:\000031}}
+.bd-team {
+  margin-bottom: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_team\.scss}line{font-family:\000034}}
+  .bd-team .team-member {
+    line-height: 2rem;
+    color: #555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_team\.scss}line{font-family:\000039}}
+  .bd-team .team-member:hover {
+    color: #333;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_team\.scss}line{font-family:\0000314}}
+  .bd-team .github-btn {
+    float: right;
+    width: 180px;
+    height: 1.25rem;
+    margin-top: .25rem;
+    border: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_team\.scss}line{font-family:\0000322}}
+  .bd-team img {
+    float: left;
+    width: 2rem;
+    margin-right: .5rem;
+    border-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_browser-bugs\.scss}line{font-family:\000036}}
+.bd-browser-bugs td p {
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_browser-bugs\.scss}line{font-family:\000039}}
+.bd-browser-bugs th:first-child {
+  width: 18%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\000036}}
+.bd-brand-logos {
+  display: table;
+  width: 100%;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  color: #563d7c;
+  background-color: #f9f9f9;
+  border-radius: .25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000317}}
+.bd-brand-item {
+  padding: 4rem 0;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000321}}
+.bd-brand-item + .bd-brand-item {
+  border-top: 1px solid #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000324}}
+.bd-brand-logos .inverse {
+  color: #fff;
+  background-color: #563d7c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000330}}
+.bd-brand-item h1,
+.bd-brand-item h3 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000335}}
+.bd-brand-item .bd-booticon {
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000357}}
+  .bd-brand-item {
+    display: table-cell;
+    width: 1%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000361}}
+  .bd-brand-item + .bd-brand-item {
+    border-top: 0;
+    border-left: 1px solid #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000365}}
+  .bd-brand-item h1 {
+    font-size: 4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000375}}
+.color-swatches {
+  margin: 0 -5px;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000380}}
+.color-swatch {
+  float: left;
+  width: 4rem;
+  height: 4rem;
+  margin-right: .25rem;
+  margin-left: .25rem;
+  border-radius: .25rem; }
+  @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000380}}
+    .color-swatch {
+      width: 6rem;
+      height: 6rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000396}}
+.color-swatches .bd-purple {
+  background-color: #563d7c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\0000399}}
+.color-swatches .bd-purple-light {
+  background-color: #cdbfe3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\00003102}}
+.color-swatches .bd-purple-lighter {
+  background-color: #e5e1ea; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_brand\.scss}line{font-family:\00003105}}
+.color-swatches .bd-gray {
+  background-color: #f9f9f9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_clipboard-js\.scss}line{font-family:\000035}}
+.bd-clipboard {
+  position: relative;
+  display: none;
+  float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_clipboard-js\.scss}line{font-family:\0000310}}
+  .bd-clipboard + .highlight {
+    margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_clipboard-js\.scss}line{font-family:\0000315}}
+.btn-clipboard {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  z-index: 10;
+  display: block;
+  padding: .25rem .5rem;
+  font-size: 75%;
+  color: #818a91;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: .25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_clipboard-js\.scss}line{font-family:\0000328}}
+  .btn-clipboard:hover {
+    color: #fff;
+    background-color: #027de7; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_clipboard-js\.scss}line{font-family:\0000335}}
+  .bd-clipboard {
+    display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000031}}
+.hll {
+  background-color: #ffc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000032}}
+.c {
+  color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000033}}
+.k {
+  color: #069; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000034}}
+.o {
+  color: #555; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000035}}
+.cm {
+  color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000036}}
+.cp {
+  color: #099; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000037}}
+.c1 {
+  color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000038}}
+.cs {
+  color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\000039}}
+.gd {
+  background-color: #fcc;
+  border: 1px solid #c00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000310}}
+.ge {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000311}}
+.gr {
+  color: #f00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000312}}
+.gh {
+  color: #030; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000313}}
+.gi {
+  background-color: #cfc;
+  border: 1px solid #0c0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000314}}
+.go {
+  color: #aaa; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000315}}
+.gp {
+  color: #009; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000316}}
+.gu {
+  color: #030; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000317}}
+.gt {
+  color: #9c6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000318}}
+.kc {
+  color: #069; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000319}}
+.kd {
+  color: #069; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000320}}
+.kn {
+  color: #069; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000321}}
+.kp {
+  color: #069; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000322}}
+.kr {
+  color: #069; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000323}}
+.kt {
+  color: #078; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000324}}
+.m {
+  color: #f60; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000325}}
+.s {
+  color: #d44950; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000326}}
+.na {
+  color: #4f9fcf; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000327}}
+.nb {
+  color: #366; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000328}}
+.nc {
+  color: #0a8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000329}}
+.no {
+  color: #360; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000330}}
+.nd {
+  color: #99f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000331}}
+.ni {
+  color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000332}}
+.ne {
+  color: #c00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000333}}
+.nf {
+  color: #c0f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000334}}
+.nl {
+  color: #99f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000335}}
+.nn {
+  color: #0cf; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000336}}
+.nt {
+  color: #2f6f9f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000337}}
+.nv {
+  color: #033; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000338}}
+.ow {
+  color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000339}}
+.w {
+  color: #bbb; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000340}}
+.mf {
+  color: #f60; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000341}}
+.mh {
+  color: #f60; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000342}}
+.mi {
+  color: #f60; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000343}}
+.mo {
+  color: #f60; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000344}}
+.sb {
+  color: #c30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000345}}
+.sc {
+  color: #c30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000346}}
+.sd {
+  font-style: italic;
+  color: #c30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000347}}
+.s2 {
+  color: #c30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000348}}
+.se {
+  color: #c30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000349}}
+.sh {
+  color: #c30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000350}}
+.si {
+  color: #a00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000351}}
+.sx {
+  color: #c30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000352}}
+.sr {
+  color: #3aa; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000353}}
+.s1 {
+  color: #c30; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000354}}
+.ss {
+  color: #fc3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000355}}
+.bp {
+  color: #366; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000356}}
+.vc {
+  color: #033; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000357}}
+.vg {
+  color: #033; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000358}}
+.vi {
+  color: #033; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000359}}
+.il {
+  color: #f60; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000361}}
+.css .o,
+.css .o + .nt,
+.css .nt + .nt {
+  color: #999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000365}}
+.language-bash::before {
+  color: #009;
+  content: "$ ";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_syntax\.scss}line{font-family:\0000366}}
+.language-powershell::before {
+  color: #009;
+  content: "PM> ";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_anchor\.scss}line{font-family:\000031}}
+.anchorjs-link {
+  color: inherit; }
+
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_anchor\.scss}line{font-family:\000036}}
+  .anchorjs-link {
+    display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_anchor\.scss}line{font-family:\0000311}}
+*:hover > .anchorjs-link {
+  opacity: .75;
+  -webkit-transition: color .16s linear;
+          transition: color .16s linear; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mohaistk\/Documents\/Git_Repos\/Creative-Warehouse\/bootstrap-4-dev\/docs\/assets\/scss\/_anchor\.scss}line{font-family:\0000316}}
+*:hover > .anchorjs-link:hover,
+.anchorjs-link:focus {
+  text-decoration: none;
+  opacity: 1; }
+
+/*# sourceMappingURL=docs.css.map */
