@@ -119,8 +119,7 @@ a.btn-banner i {
         }
     }
 }
-
-@media (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 768px) {
     #brand-logo {
         float: left;
     }
@@ -150,7 +149,7 @@ a.btn-banner i {
     	a.btn-banner {
     		margin-top: 5px;
     		font-size: 8px;
-    		line-height: 16px;
+    		padding: 6px 10px;
 
     	}
     }
