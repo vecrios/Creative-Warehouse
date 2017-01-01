@@ -29,7 +29,9 @@ ul.nav > li > a {
 
 // jumbotron
 #banner {
-	background: url('./img/wh2.jpg') no-repeat;
+	background: url('./img/wh4_ds.jpg') no-repeat center fixed;
+	background-size: 100%;
+	// min-height: 1000px;
 }
 
 
@@ -77,3 +79,65 @@ ul.nav > li > a {
 .section-padding {
 	border-top: 1px solid rgba(128, 128, 128, 0.12);
 }
+
+
+
+.jumbotron {
+	letter-spacing: normal;
+
+	h1.small, p.big, .btn-banner {
+		letter-spacing: inherit;
+		display: inline-block;
+		background-color: #E74C3C;
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+
+	a.btn-banner {
+		margin-top: 30px;
+	}
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-top: 200px;
+	padding-right: 20px;
+}
+
+a.btn-banner i {
+    padding-right: 10px;
+    padding-left: none;
+}
+
+.section-padding {
+	padding-top: 110px;
+}
+
+
+
+// #E74C3C
+
+
+#myNavbar {
+	border-bottom: 1px solid black;
+	// .active {
+	// 	background-color: #E74C3C;
+		
+	// 	a {
+	// 		background-color: inherit;
+	// 		border-bottom: 0px;
+	// 	}
+	// }
+
+
+	ul > li {
+		margin-left: 15px;
+
+		a {
+			font-size: 16px;
+		}
+	}
+}
+
+
+
+

@@ -20,50 +20,98 @@ ul.nav > li > a {
 
 /* line 31, main.scss */
 #banner {
-  background: url("./img/wh2.jpg") no-repeat;
+  background: url("./img/wh4_ds.jpg") no-repeat center fixed;
+  background-size: 100%;
 }
 
-/* line 38, main.scss */
+/* line 40, main.scss */
 .service-box .service-icon {
   margin-right: 0px;
   margin-left: 23px;
 }
-/* line 43, main.scss */
+/* line 45, main.scss */
 .service-box .service-icon i.fa {
   line-height: 70px;
 }
 
-/* line 50, main.scss */
+/* line 52, main.scss */
 .team-info {
   border-radius: 0px;
   border-right: 1px solid #e43c5c;
   border-radius: 50px;
 }
-/* line 55, main.scss */
+/* line 57, main.scss */
 .team-info .fig-caption {
   padding: 0px 40px 0px 0px;
   width: 100%;
   float: none;
 }
 
-/* line 62, main.scss */
+/* line 64, main.scss */
 .team-cards, .team-cards * {
   margin-top: 5px;
 }
 
-/* line 66, main.scss */
+/* line 68, main.scss */
 .text-field-box {
   text-align: right;
 }
 
-/* line 71, main.scss */
+/* line 73, main.scss */
 .wd75 {
   float: right;
 }
 
-/* line 77, main.scss */
+/* line 79, main.scss */
 .section-padding {
   border-top: 1px solid rgba(128, 128, 128, 0.12);
+}
+
+/* line 85, main.scss */
+.jumbotron {
+  letter-spacing: normal;
+}
+/* line 88, main.scss */
+.jumbotron h1.small, .jumbotron p.big, .jumbotron .btn-banner {
+  letter-spacing: inherit;
+  display: inline-block;
+  background-color: #E74C3C;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 96, main.scss */
+.jumbotron a.btn-banner {
+  margin-top: 30px;
+}
+
+/* line 101, main.scss */
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-top: 200px;
+  padding-right: 20px;
+}
+
+/* line 106, main.scss */
+a.btn-banner i {
+  padding-right: 10px;
+  padding-left: none;
+}
+
+/* line 111, main.scss */
+.section-padding {
+  padding-top: 110px;
+}
+
+/* line 120, main.scss */
+#myNavbar {
+  border-bottom: 1px solid black;
+}
+/* line 132, main.scss */
+#myNavbar ul > li {
+  margin-left: 15px;
+}
+/* line 135, main.scss */
+#myNavbar ul > li a {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */
