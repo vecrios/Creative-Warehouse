@@ -134,19 +134,22 @@ a.btn-banner i {
   }
   /* line 139, main.scss */
   .jumbotron h1.small {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 32px;
   }
-  /* line 143, main.scss */
+  /* line 144, main.scss */
   .jumbotron p.big {
-    font-size: 12px;
+    font-size: 10px;
+    line-height: 20px;
   }
-  /* line 148, main.scss */
+  /* line 150, main.scss */
   .jumbotron a.btn-banner {
     margin-top: 5px;
     font-size: 8px;
+    line-height: 16px;
   }
 
-  /* line 160, main.scss */
+  /* line 163, main.scss */
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #E74C3C !important;
   }
