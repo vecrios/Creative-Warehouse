@@ -1,26 +1,20 @@
-
 $brand-color: #9fbffc;
 $brand-accent: #e43c5c;
 
-// change brand color 
+// change brand color
 .cta-1, .cta2, .navbar-default .navbar-brand, .main-navigation.navbar-fixed-top * {
-	background-color: $brand-color !important;
+    background-color: $brand-color !important;
 }
 
-
-
-
-// set fixed height on navbar 
+// set fixed height on navbar
 #brand-logo {
-	height: 70px;
+    height: 70px;
 }
 
 // remove border
 .main-navigation {
-	border-bottom: none;
+    border-bottom: none;
 }
-
-
 
 // vertical center for top nav
 ul.nav > li > a {
@@ -29,115 +23,143 @@ ul.nav > li > a {
 
 // jumbotron
 #banner {
-	background: url('./img/wh4_ds.jpg') no-repeat center fixed;
-	background-size: 100%;
-	// min-height: 1000px;
+    background: url("./img/wh4_ds.jpg") no-repeat center fixed;
+    background-size: 100%;
+
+    // min-height: 1000px;
 }
 
-
-
-// fix icon issues 
+// fix icon issues
 .service-box .service-icon {
-	margin-right: 0px;
-	margin-left: 23px;
-	
+    margin-right: 0px;
+    margin-left: 23px;
 
-	i.fa {
-		line-height: 70px;
-	}
+    i.fa {
+        line-height: 70px;
+    }
 }
-
-
 
 .team-info {
-	border-radius: 0px;
-	border-right: 1px solid $brand-accent;
-	border-radius: 50px;
+    border-radius: 0px;
+    border-right: 1px solid $brand-accent;
+    border-radius: 50px;
 
-	.fig-caption {
-		padding: 0px 40px 0px 0px;	
-		width: 100%;
-    	float: none;
-	}
+    .fig-caption {
+        padding: 0px 40px 0px 0px;
+        width: 100%;
+        float: none;
+    }
 }
 
 .team-cards, .team-cards * {
-	margin-top: 5px;
+    margin-top: 5px;
 }
 
 .text-field-box {
-	text-align: right;
+    text-align: right;
 }
-
 
 .wd75 {
-	float: right;
+    float: right;
 }
-
-
 
 .section-padding {
-	border-top: 1px solid rgba(128, 128, 128, 0.12);
+    border-top: 1px solid rgba(128, 128, 128, 0.12);
 }
 
-
-
 .jumbotron {
-	letter-spacing: normal;
+    letter-spacing: normal;
 
-	h1.small, p.big, .btn-banner {
-		letter-spacing: inherit;
-		display: inline-block;
-		background-color: #E74C3C;
-		padding-left: 10px;
-    	padding-right: 10px;
-	}
+    h1.small, p.big, .btn-banner {
+        letter-spacing: inherit;
+        display: inline-block;
+        background-color: #E74C3C;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-	a.btn-banner {
-		margin-top: 30px;
-	}
+    a.btn-banner {
+        margin-top: 30px;
+    }
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
-	padding-top: 200px;
-	padding-right: 20px;
+    padding-top: 200px;
+    padding-right: 20px;
 }
 
 a.btn-banner i {
     padding-right: 10px;
-    padding-left: none;
+    padding-left: 0px;
 }
 
 .section-padding {
-	padding-top: 110px;
+    padding-top: 110px;
 }
-
-
 
 // #E74C3C
 
-
 #myNavbar {
-	border-bottom: 1px solid black;
-	// .active {
-	// 	background-color: #E74C3C;
-		
-	// 	a {
-	// 		background-color: inherit;
-	// 		border-bottom: 0px;
-	// 	}
-	// }
+    border-bottom: 1px solid black;
 
+    // .active {
+    // 	background-color: #E74C3C;
 
-	ul > li {
-		margin-left: 15px;
+    // 	a {
+    // 		background-color: inherit;
+    // 		border-bottom: 0px;
+    // 	}
+    // }
 
-		a {
-			font-size: 16px;
-		}
-	}
+    ul > li {
+        margin-left: 15px;
+
+        a {
+            font-size: 16px;
+        }
+    }
 }
 
+@media (max-width: 768px) {
+    #brand-logo {
+        float: left;
+    }
+
+    #banner {
+	    background: url(./img/wh4_ds.jpg) no-repeat center top fixed;
+	    background-position-y: 100px;
+	    background-size: 100%;
+
+	    min-height: 0px;
+    }
+
+    .jumbotron {
+    	padding: 30px 0px 0px 20px !important;
+
+    	h1.small {
+    		font-size: 18px;
+    	}
+
+    	p.big {
+    		font-size: 12px;
+    	}
 
 
+    	a.btn-banner {
+    		margin-top: 5px;
+    		font-size: 8px;
 
+    	}
+    }
+
+    .jumbotron h1.small, .jumbotron p.big, .jumbotron .btn-banner {
+
+    }
+
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #E74C3C !important;
+    }
+
+
+}

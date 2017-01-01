@@ -1,77 +1,77 @@
-/* line 6, main.scss */
+/* line 5, main.scss */
 .cta-1, .cta2, .navbar-default .navbar-brand, .main-navigation.navbar-fixed-top * {
   background-color: #9fbffc !important;
 }
 
-/* line 14, main.scss */
+/* line 10, main.scss */
 #brand-logo {
   height: 70px;
 }
 
-/* line 19, main.scss */
+/* line 15, main.scss */
 .main-navigation {
   border-bottom: none;
 }
 
-/* line 26, main.scss */
+/* line 20, main.scss */
 ul.nav > li > a {
   line-height: 50px;
 }
 
-/* line 31, main.scss */
+/* line 25, main.scss */
 #banner {
   background: url("./img/wh4_ds.jpg") no-repeat center fixed;
   background-size: 100%;
 }
 
-/* line 40, main.scss */
+/* line 33, main.scss */
 .service-box .service-icon {
   margin-right: 0px;
   margin-left: 23px;
 }
-/* line 45, main.scss */
+/* line 37, main.scss */
 .service-box .service-icon i.fa {
   line-height: 70px;
 }
 
-/* line 52, main.scss */
+/* line 42, main.scss */
 .team-info {
   border-radius: 0px;
   border-right: 1px solid #e43c5c;
   border-radius: 50px;
 }
-/* line 57, main.scss */
+/* line 47, main.scss */
 .team-info .fig-caption {
   padding: 0px 40px 0px 0px;
   width: 100%;
   float: none;
 }
 
-/* line 64, main.scss */
+/* line 54, main.scss */
 .team-cards, .team-cards * {
   margin-top: 5px;
 }
 
-/* line 68, main.scss */
+/* line 58, main.scss */
 .text-field-box {
   text-align: right;
 }
 
-/* line 73, main.scss */
+/* line 62, main.scss */
 .wd75 {
   float: right;
 }
 
-/* line 79, main.scss */
+/* line 66, main.scss */
 .section-padding {
   border-top: 1px solid rgba(128, 128, 128, 0.12);
 }
 
-/* line 85, main.scss */
+/* line 70, main.scss */
 .jumbotron {
   letter-spacing: normal;
 }
-/* line 88, main.scss */
+/* line 73, main.scss */
 .jumbotron h1.small, .jumbotron p.big, .jumbotron .btn-banner {
   letter-spacing: inherit;
   display: inline-block;
@@ -79,39 +79,77 @@ ul.nav > li > a {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 96, main.scss */
+/* line 81, main.scss */
 .jumbotron a.btn-banner {
   margin-top: 30px;
 }
 
-/* line 101, main.scss */
+/* line 86, main.scss */
 .container .jumbotron, .container-fluid .jumbotron {
   padding-top: 200px;
   padding-right: 20px;
 }
 
-/* line 106, main.scss */
+/* line 91, main.scss */
 a.btn-banner i {
   padding-right: 10px;
-  padding-left: none;
+  padding-left: 0px;
 }
 
-/* line 111, main.scss */
+/* line 96, main.scss */
 .section-padding {
   padding-top: 110px;
 }
 
-/* line 120, main.scss */
+/* line 102, main.scss */
 #myNavbar {
   border-bottom: 1px solid black;
 }
-/* line 132, main.scss */
+/* line 114, main.scss */
 #myNavbar ul > li {
   margin-left: 15px;
 }
-/* line 135, main.scss */
+/* line 117, main.scss */
 #myNavbar ul > li a {
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  /* line 124, main.scss */
+  #brand-logo {
+    float: left;
+  }
+
+  /* line 128, main.scss */
+  #banner {
+    background: url(./img/wh4_ds.jpg) no-repeat center top fixed;
+    background-position-y: 100px;
+    background-size: 100%;
+    min-height: 0px;
+  }
+
+  /* line 136, main.scss */
+  .jumbotron {
+    padding: 30px 0px 0px 20px !important;
+  }
+  /* line 139, main.scss */
+  .jumbotron h1.small {
+    font-size: 18px;
+  }
+  /* line 143, main.scss */
+  .jumbotron p.big {
+    font-size: 12px;
+  }
+  /* line 148, main.scss */
+  .jumbotron a.btn-banner {
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
+  /* line 160, main.scss */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #E74C3C !important;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
